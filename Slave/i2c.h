@@ -9,17 +9,11 @@
 * PIC16F887 en modo SLAVE.
 */
 
-#include <xc.h>
-#define _XTAL_FREQ 8000000
+#ifndef SLAVE_I2C_H
+#define	SLAVE_I2C_H
 
-#define I2C_SLAVE_MODE
-
-#ifdef I2C_SLAVE_MODE
-void I2C_Init_Slave(unsigned char add_slave);
-unsigned char I2C_Read_Slave(void);
-void I2C_Write_Slave(char dato_i2c);
-void I2C_Error_Data(void);
-short I2C_Write_Mode(void);
-short I2C_Read_Mode(void);
-short I2C_Error_Read(void);
-#endif
+// PROTOTIPOS
+void I2CSlave_init(unsigned char address);
+unsigned char I2CSlave_RW0(void);
+unsigned char I2CSlave_ReadOrWrite(void);
+#endif	/* XC_HEADER_TEMPLATE_H */
