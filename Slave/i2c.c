@@ -1,9 +1,11 @@
-/* #include "i2c.h"
-*
+/*
 * Creada por: Ing. Abiezer Hernandez O.
+* Modificado y adaptado por: Estudiante Mecatrónico Reyes Guzmán Jose Angel
 * Fecha de creacion: 25/11/2019
 * Electronica y Circuitos
 *
+* Comentario: Archivo que contiene la definición de funciones para la gestión y control de la comunicación i2c en un
+* PIC16F887 en modo SLAVE.
 */
 
 #include "i2c.h"
