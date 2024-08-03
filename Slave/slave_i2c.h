@@ -15,8 +15,15 @@
 #ifndef SLAVE_I2C_H
 #define	SLAVE_I2C_H
 
-// PROTOTIPOS
-void I2CSlave_init(unsigned char address);
-unsigned char I2CSlave_RW0(void);
-unsigned char I2CSlave_ReadOrWrite(void);
+// Prototipos de Módulos
+void entradas(void);
+void salidas(void);
+void i2c_setupS(void);     
+void i2c_IntSetUpS(void);   
+short i2c_errorRead(void);
+short i2c_writeMode(void);
+short i2c_readMode(void);
+void i2c_errorData(void);
+unsigned char i2c_readSlave(void);
+void i2c_writeSlave(char dato_i2c);
 #endif	/* XC_HEADER_TEMPLATE_H */
