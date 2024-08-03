@@ -9,6 +9,9 @@
 * PIC16F887 en modo SLAVE.
 */
 
+#include <xc.h>
+#define _XTAL_FREQ 8000000
+
 #ifndef SLAVE_I2C_H
 #define	SLAVE_I2C_H
 
