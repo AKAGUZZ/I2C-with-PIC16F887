@@ -9,3 +9,8 @@ derecha en tu código de programación en python. Ejemplo:
 
 addres_pic = 0101 0000 // Dirección del PIC
 correc_addres_in_pyton = 0010 1000 //Dirección del PIC en Python
+
+Otra cosa a considerar es que uses resistencias PULL-UP en los pines correspondientes del microcontrolador, en este caso en RC3 y RC4 para el correcto funcionamiento de la
+comunicación, de lo contrario, no funcionará. La resistencias recomendadas son de 4k a 10k. Particularmente uso resistencias de 10k.
+
+![image](https://github.com/user-attachments/assets/4a355591-dadb-4c10-bfc7-a91ff8873572)
