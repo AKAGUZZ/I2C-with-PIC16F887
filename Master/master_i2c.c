@@ -1,11 +1,10 @@
 /*
  * File:   master_i2c.c
  * Author: Reyes Guzmán Jose Angel
- * Comentario: Archivo que contiene la definición de Módulos para la gestión y control de la comunicación i2c en modo 
+ * Comentario: Archivo que contiene la definición de las funciones para la gestión y control de la comunicación i2c en modo 
  *             maestro.
  * Created on 9 de junio de 2024, 12:02 PM
  */
-
 
 #include "master_i2c.h"
 
