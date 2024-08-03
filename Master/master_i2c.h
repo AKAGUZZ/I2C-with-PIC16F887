@@ -1,8 +1,8 @@
 /* 
  * File:    master_i2c.h
- * Author:  Jose Angel Reyes Guzm·n
- * Comments: Archivo que gestiona el protocolo de comunicaciÛn I2C de un
- *           dispositivo Maestro.
+ * Author:  Jose Angel Reyes Guzm√°n
+ * Comments: Archivo que contiene los prototipos de las funciones para el control y gestion del protocolo de comunicaci√≥n 
+ *           I2C del microcontrolador PIC16F887 en modo Maestro.
  * Revision history: 1.0
  */
 #include <xc.h>
@@ -21,5 +21,5 @@ unsigned char I2CMaster_Read(void);
 void I2CMaster_Restart(void);
 void I2CMaster_NACK(void);
 void I2CMaster_ACK(void);        
-#endif	/* XC_HEADER_TEMPLATE_H */
-
+#endif
+/* XC_HEADER_TEMPLATE_H */
