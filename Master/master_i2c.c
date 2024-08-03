@@ -1,7 +1,8 @@
 /*
  * File:   master_i2c.c
- * Author: guza_
- *
+ * Author: Reyes Guzmán Jose Angel
+ * Comentario: Archico que contiene la definición de Módulos para la gestión y control de la comunicación i2c en modo 
+ *             maestro.
  * Created on 9 de junio de 2024, 12:02 PM
  */
 
@@ -51,8 +52,8 @@ void I2CMaster_Stop(void){
 
 unsigned char I2CMaster_Read(void){
     unsigned char TempData;
-    SSPCON2bits.RCEN = 1; // Enables Receive mode for I2C. RCEN cleared automatically
-    while (!SSPSTATbits.BF); // Wait for the recieve to complete
+    SSPCON2bits.RCEN = 1;     // Enables Receive mode for I2C. RCEN cleared automatically
+    while (!SSPSTATbits.BF);  // Wait for the recieve to complete
     TempData = SSPBUF;   
 }
 
