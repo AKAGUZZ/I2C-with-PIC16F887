@@ -16,6 +16,6 @@ comunicación, de lo contrario, no funcionará. La resistencias recomendadas son
 
 Otras cosas a considerar:
 
--Faltan implementar otras funciones, algunas de ellas interrupciones propias del funcinamiento de la comunicación I2C, como interrupciones por colisión de bits, interrupción por recibir un bit mientrás el buffer esta en modo transmiciónm etc. Para implementarlas es recomendable leer el datasheet del PIC16F887.
+-Falta implementar otras funciones, algunas de ellas interrupciones propias del funcinamiento de la comunicación I2C, como interrupciones por colisión de bits, interrupción por recibir un bit mientrás el buffer esta en modo transmición etc. Para implementarlas es recomendable leer el datasheet del PIC16F887.
 
 ![image](https://github.com/user-attachments/assets/4a355591-dadb-4c10-bfc7-a91ff8873572)
