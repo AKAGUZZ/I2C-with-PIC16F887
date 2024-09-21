@@ -8,6 +8,7 @@ IMPORTANTE: Si usas la función Slave del microcontrolador PIC16F887 junto con u
 derecha en tu código de programación en python. Ejemplo:
 
 addres_pic = 0101 0000 // Dirección del PIC
+
 correc_addres_in_pyton = 0010 1000 //Dirección del PIC en Python
 
 Otra cosa a considerar es que uses resistencias PULL-UP en los pines correspondientes del microcontrolador, en este caso en RC3 y RC4 para el correcto funcionamiento de la
